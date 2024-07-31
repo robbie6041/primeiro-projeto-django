@@ -1,0 +1,14 @@
+{% if ultimas_perguntas %}
+<ul>
+    {%for pergunta in ultimas_perguntas%}
+    <li><a href= "{% url 'enqutes:detalhes' pergunta.id %}">{{pergunta.texto_pergunta}}</a></li>
+{% endfor %}
+<ul>
+{% else %}
+    <p>sem enquetes disponiveis,</p>
+{% endif %}
+
+
+
+
+
