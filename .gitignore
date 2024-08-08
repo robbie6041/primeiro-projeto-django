@@ -1,0 +1,14 @@
+env/*
+.env
+.env.development.local
+.vercel
+node_modules
+_pycache_
+
+
+
+
+
+
+
+
